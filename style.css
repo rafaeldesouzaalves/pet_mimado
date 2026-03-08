@@ -15,18 +15,16 @@ body {
 
 
 body{
-    background-color: antiquewhite;
+    background-color: whitesmoke;
 }
 
 header{
     background-image: linear-gradient(to bottom, chocolate, brown);
     margin: -10px;
-    height: 280px;
+    height: 277px;
     width: 1866px;
     border-radius: 0px 0px 20px 20px;
     font-family: Host Grotesk;
-    min-height: 150px;
-    max-height: 600px;
 }
 
 #shop{
@@ -35,7 +33,7 @@ header{
     font-variant: normal;
     font-weight: 330;
     text-align: center;
-    padding: 35px;
+    padding: 30px;
     padding-bottom: 0px;
     width: 330px;
     border-radius: 20px;
@@ -101,7 +99,7 @@ a:hover{
   background-color: #000000d2;
   color: white;
   border: none;
-  padding: 5px 10px;
+  padding: 6px 10px;
   font-size: 16px;
   border-radius: 20px;
   margin-right: 10px;
@@ -110,6 +108,7 @@ a:hover{
   font-family: var(--font0);
   outline: none;
   float: right;
+  width: 13%;
 }
 
 #pesquisar:focus{
@@ -118,3 +117,71 @@ a:hover{
     color: black;
 }
 
+#fimg{
+    display: flex;
+    margin-left: 130px;
+    border-radius: 25px;
+}
+
+#secao{
+    font-family: var(--font0);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    margin-left: 890px;
+    margin-top: -730px;
+    line-height: 1.2em;
+}
+
+#dsc{
+    font-family: var(--font0);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    margin-left: 890px;
+    margin-top: -55px;
+}
+
+#para{
+    font-family: var(--font0);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: justify;
+    display: flex;
+    margin-left: 890px;
+    margin-top: -37px;
+    line-height: 1.2em;
+}
+
+#Q1{
+    font-family: var(--font0);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: justify;
+    margin-left: 870px;
+    margin-top: -20px;
+}
+
+#Q2{
+    font-family: var(--font0);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: justify;
+    margin-left: 870px;
+}
+
+#Q3{
+    font-family: var(--font0);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: justify;
+    margin-left: 870px;
+}
